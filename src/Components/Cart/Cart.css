@@ -1,0 +1,11 @@
+.cart{
+    position:sticky;
+    top: 0;
+    padding: 30px 20px;
+}
+.break-btn{
+    display: flex;
+}
+.active{
+    background-color: cyan;
+}

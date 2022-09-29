@@ -1,0 +1,23 @@
+.player-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:5px;
+    margin:100px 50px;
+}
+.cart-container{
+    background-color: cyan;
+}
+@media screen and (max-device-width: 768px){
+    .products-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-device-width: 480px){
+    .products-container{
+        grid-template-columns: 1fr;
+    }
+}
